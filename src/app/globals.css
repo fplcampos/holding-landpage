@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tinos:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    font-family: 'Inter';
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    
+}
+
+#c-cursor, #c-cursorInner {
+    mix-blend-mode: normal!important;
+    filter: none!important;
+}
+
+.swiper-wrapper {
+    -webkit-transition-timing-function:linear!important; 
+    -o-transition-timing-function:linear!important;
+    transition-timing-function:linear!important; 
+}
