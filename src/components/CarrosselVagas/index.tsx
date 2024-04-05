@@ -57,7 +57,7 @@ export default function CarrosselVagas() {
                     styles.map((obj, key) => {
                         return (
                             <SwiperSlide key={key} className='py-4'>
-                                <Link href="https://linktr.ee/fsbholdingvagas" target="_blank" className={obj} data-cursor-color="#ffffff" data-cursor-background-image="/images/ico-open.svg" data-cursor-size="70px">Vagas_</Link>
+                                <Link href="https://www.google.com.br" target="_blank" className={obj} data-cursor-color="#ffffff" data-cursor-background-image="/images/ico-open.svg" data-cursor-size="70px">Lorem_</Link>
                             </SwiperSlide>
                         )
                     })
