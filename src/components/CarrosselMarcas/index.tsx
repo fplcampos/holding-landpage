@@ -3,7 +3,7 @@
 import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { LogoBeon, LogoBussola, LogoDeck, LogoF5Growth, LogoFSB, LogoGiusti, LogoIpri, LogoJotacom, LogoLoures, LogoSeta } from '@/utils/logos';
+import { LogoCompany, LogoCompany10, LogoCompany2, LogoCompany3, LogoCompany4, LogoCompany5, LogoCompany6, LogoCompany7, LogoCompany8, LogoCompany9 } from '@/utils/logos';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import CarrosselMarcasItem from './carrosselMarcasItem';
@@ -11,54 +11,54 @@ import CarrosselMarcasItem from './carrosselMarcasItem';
 export default function Carrossel() {
 
     const marcas = [{
-        logo: <LogoFSB className='w-full max-h-10' />,
+        logo: <LogoCompany className='w-full max-h-10' />,
         color: 'text-fsbcom',
-        description: 'Comunicação Corporativa'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoLoures className='w-full max-h-10' />,
+        logo: <LogoCompany2 className='w-full max-h-10' />,
         color: 'text-loures',
-        description: 'Consultoria em Relações Públicas e Comunicação'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoJotacom className='w-full max-h-10' />,
+        logo: <LogoCompany3 className='w-full max-h-10' />,
         color: 'text-jotacom',
-        description: 'Publicidade, Mídia, Conteúdo e Performance'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoGiusti className='w-full max-h-14' />,
+        logo: <LogoCompany4 className='w-full max-h-14' />,
         color: 'text-giustipr',
-        description: 'Creative PR'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoSeta className='w-full max-h-12' />,
+        logo: <LogoCompany5 className='w-full max-h-12' />,
         color: 'text-loures',
-        description: 'Relações Institucionais e Governamentais'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoIpri className='w-full max-h-14' />,
+        logo: <LogoCompany6 className='w-full max-h-14' />,
         color: 'text-ipri',
-        description: 'Instituto de Pesquisa'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoF5Growth className='w-full max-h-12' />,
+        logo: <LogoCompany7 className='w-full max-h-12' />,
         color: 'text-f5growth',
-        description: 'PR para negócios que moldam o futuro'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoBeon className='w-full max-h-12' />,
+        logo: <LogoCompany8 className='w-full max-h-12' />,
         color: 'text-beon',
-        description: 'Consultoria em ESG'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoBussola className='w-full max-h-12' />,
+        logo: <LogoCompany9 className='w-full max-h-12' />,
         color: 'text-beon',
-        description: 'Conteúdo Estratégico'
+        description: 'Nome empresa'
     },
     {
-        logo: <LogoDeck className='w-full max-h-12' />,
+        logo: <LogoCompany10 className='w-full max-h-12' />,
         color: 'text-deck',
-        description: 'Marketing de Influência'
+        description: 'Nome empresa'
     }];
 
     return (

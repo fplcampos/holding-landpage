@@ -56,8 +56,8 @@ export default function Manifesto() {
                             whileInView={{ x: 0, opacity: 1, transition: { ...animations.transition, delay: 1 } }}
                         >
                             <p className="absolute z-10 flex items-center justify-center w-16 h-16 text-sm font-medium text-center text-white -translate-x-1/2 -translate-y-1/2 rounded-full opacity-100 lg:hidden bg-giusti font-inter left-1/2 top-1/2">Assistir</p>
-                            <p className='font-tinos text-mobile lg:text-extra opacity-35'>mani</p>
-                            <p className='font-inter opacity-35'>festo</p>
+                            <p className='font-tinos text-mobile lg:text-extra opacity-35'>Lorem</p>
+                            <p className='font-inter opacity-35'>ipsum</p>
                         </motion.div>
                     </div>
                 </div >
@@ -65,7 +65,7 @@ export default function Manifesto() {
             <Modal open={openModal} onOpenChange={setOpenModal}>
                 <YouTube
                     className="w-full h-full"
-                    videoId={'-_9QbLkCA5I'}
+                    videoId={'NpEaa2P7qZI'}
                     title={'Vídeo Manifesto'}
                     opts={VideoOpts}
                     onReady={onPlayerReady}
